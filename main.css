@@ -1,0 +1,77 @@
+body header h1 {
+    padding:10px;
+}
+body  header h1 span {
+    color:rgb(0, 255, 255);
+}
+body .article-section h2 {
+    padding: 10px;
+}
+a{
+    color:black;
+}
+
+li:hover {
+    background-color: cyan;
+    color: red;
+}
+.image-section img {
+    width: 15%;
+}
+.image-section > img:nth-child(3) {
+    width: 15%; 
+    height: 285px;
+}
+.show-section {
+    font-size: 15px;
+    padding: 10px;
+}
+.links-section {
+    font-size:15px;
+    padding:10px;
+    margin-top: 50px; 
+}
+.paragraph-section {
+    font-size:20px;
+}
+.article-section >img {
+    width:50%;
+}
+.plot-area {
+    font-size:20px; 
+}
+.soundtrack-area {
+    font-size:20px; 
+}
+.character-area {
+    font-size:20px; 
+}
+.plot2-area {
+    font-size:20px; 
+    color:rgb(158, 12, 49);
+}
+.plot2-area p {
+    font-size:20px; 
+    color:black; 
+}
+.soundtrack2-area {
+    font-size:20px; 
+    color:rgb(158, 12, 49);
+}
+.soundtrack2-area p {
+    font-size:20px; 
+    color:black;
+}
+.character2-area {
+    font-size:20px; 
+    color:rgb(158, 12, 49);
+}
+.character2-area td {
+    font-size:20px; 
+    color:black;
+}
+@media only screen and (min-width:400px) {
+    .image-section img {
+        width: 190px;
+    }
+}
