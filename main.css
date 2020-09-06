@@ -1,9 +1,25 @@
 body header h1 {
     padding:10px;
 }
-body  header h1 span {
+body  header .main-title h1 span {
     color:rgb(0, 255, 255);
 }
+body header .pb-title h1 span {
+    color: red;
+}
+
+body header .sherlock-title h1 span {
+    color: rgb(14, 14, 226);
+}
+
+body header .dps-title h1 span {
+    color: rgb(163, 43, 7);
+}
+
+body header .gattaca-title h1 span {
+    color: rgb(55, 202, 207);
+}
+
 body .article-section h2 {
     padding: 10px;
 }
@@ -54,6 +70,22 @@ li:hover {
     font-size:20px; 
     color:black; 
 }
+.plot3-area {
+    font-size:20px; 
+    color:rgb(15, 15, 15);
+}
+.plot3-area p {
+    font-size:20px; 
+    color:black; 
+}
+.plot4-area {
+    font-size:20px; 
+    color:rgb(12, 11, 12);
+}
+.plot4-area p {
+    font-size:20px; 
+    color:black; 
+}
 .soundtrack2-area {
     font-size:20px; 
     color:rgb(158, 12, 49);
@@ -68,8 +100,28 @@ li:hover {
 }
 .character2-area td {
     font-size:20px; 
-    color:black;
+    color:rgb(20, 19, 19);
 }
+.character3-area {
+    font-size:20px; 
+    color:rgb(12, 12, 12);
+}
+.character3-area td {
+    font-size:20px; 
+    color:rgb(13, 14, 13);
+}
+.character4-area {
+    font-size:20px; 
+    color:rgb(13, 14, 13);
+}
+.character4-area td {
+    font-size:20px; 
+    color:rgb(13, 13, 14);
+}
+.themes-area {
+    font-size: 20px;
+}
+
 @media only screen and (min-width:400px) {
     .image-section img {
         width: 190px;
